@@ -9,6 +9,8 @@ export const revalidate = 0;
 
 const HomePage = async () => {
   const products = await getProducts({ isFeatured: true })
+
+  // copy the API from billboard CMS
   const billboard = await getBillboard("f63237d0-02ec-4214-a317-01958e220c57");
   
   return (
