@@ -5,7 +5,6 @@ import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 
 import './globals.css'
-import { Container } from 'postcss'
 
 const font = Urbanist({ subsets: ['latin'] })
 
