@@ -14,10 +14,24 @@ const Navbar = async () => {
     
   <div className="border-b">
         <Container>
-          <div className="relative px-2 sm:px-4  flex h-16 items-center">
+          <div className="
+          fixed 
+          top-0   
+          bg-white 
+          z-10 
+          shadow-lg 
+          px-4 
+          sm:px-6 
+          lg:px-8 
+          flex h-16 
+          items-center 
+          left-0 
+          w-full
+          "
+          >
             <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
               <Image src="/favicon.ico" height={100} width={100} alt="icon" className="sm:w-7 w-6"/>
-              <p className="font-bold text-xl">
+              <p className="font-bold text-sm sm:text-xl">
                 QR-STORE</p>
             </Link>
             <MainNav data={categories}/>
