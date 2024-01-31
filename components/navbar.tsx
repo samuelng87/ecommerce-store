@@ -14,18 +14,17 @@ const Navbar = async () => {
     
   <div className="border-b">
         <Container>
-          <div className="
+          <div className=" 
+          inset-0 
+          z-10
           fixed 
-          top-0   
           bg-white 
-          z-10 
           shadow-lg 
           px-4 
           sm:px-6 
           lg:px-8 
           flex h-16 
           items-center 
-          left-0 
           w-full
           "
           >
