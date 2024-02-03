@@ -11,7 +11,7 @@ const HomePage = async () => {
   const products = await getProducts({ isFeatured: true })
 
   // copy the API from billboard CMS
-  const billboard = await getBillboard("879fcd0b-ddcd-4461-8b0b-47e3edeaebe8");
+  const billboard = await getBillboard("9ebdb4ac-9218-4ea9-8eeb-98595c6b78bb");
   
   return (
     <Container>
