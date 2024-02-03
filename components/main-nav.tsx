@@ -9,7 +9,6 @@ interface MainNavProps {
     data: Category[];
 }
 
-
 const MainNav: React.FC<MainNavProps> = ({
     data
 }) => {
