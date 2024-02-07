@@ -1,6 +1,6 @@
 # E-Commerce Store
 
-![](https://github.com/samuelng87/ecommerce-store/blob/main/qr-store 2.png)
+![](https://github.com/samuelng87/ecommerce-store/blob/main/qr-store.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
