@@ -87,7 +87,7 @@ const ProductCard: React.FC<ProductCard> = ({
         </p>
       </div>
       {/* price */}
-      <div className="flex items center justify-between">
+      <div className="flex justify-between items-center">
         <Currency value={data?.price}/>
       </div>
     </div>

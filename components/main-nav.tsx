@@ -18,10 +18,7 @@ const MainNav: React.FC<MainNavProps> = ({
 
   return (
     <nav
-    className=" 
-    mx-6 
-    flex
-    items-center 
+    className="
     space-x-4 
     lg:space-x-6
     "
