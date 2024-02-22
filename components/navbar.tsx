@@ -36,15 +36,17 @@ const Navbar = async () => {
             </Link>
             <Link href="/about" className="flex lg:ml-0 gap-x-2 space-x-4 lg:space-x-6 mx-0 sm:mx-6
 ">
-              <p className="text-sm sm:text-lg ml-3 sm:ml-6 hidden">
+              <p className="text-sm sm:text-lg ml-3 sm:ml-6">
                 About</p>
             </Link>
               <div className="hidden sm:block">
               <MainNav data={categories}/>
+
+
               </div>
               <div className="ml-4 block sm:hidden">
               <Select>
-                <SelectTrigger className="w-[100px] h-[30px]">
+                <SelectTrigger className="w-[85px] h-[30px]">
                   <SelectValue placeholder="Select" className=""/>
                 </SelectTrigger>
                 <SelectContent className="mt-4 flex">
