@@ -1,14 +1,9 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 import Image from 'next/image'
-import Autoplay from "embla-carousel-autoplay"
 import getBillboard from "@/actions/get-billboard";
 import Billboard from "@/components/billboard";
 import Container from '@/components/ui/container'
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-} from "@/components/ui/resizable"
+
 
 export const revalidate = 0;
 
@@ -36,17 +31,24 @@ const page = async () => {
   <CarouselNext className="right-3"/>
 </Carousel>          
 </div>
-            
-          <div className="m-4">
-            <p className=" text-justify">
-            Hi, my name is Samuel, I am  
-            committed to stay at the forefront of emerging web technologies, I actively engage in self-learning. 
-            Additionally, I have hands-on experience in web hosting on platforms, deploying projects, and managing GitHub repositories, further enhancing my proficiency in web development.
-            I've volunteered in an agile environment at Treiner, showcasing adaptability and teamwork. 
-            Currently, I'm conducting my professional year, further refining my skills and staying current with industry trends.
-            If you're seeking a results-driven marketer with a unique blend of skills and a passion for continuous learning "Kaizen".
-            Feel free to message me with any inquiries or opportunities for collaboration. Let's explore how we can achieve success together!
-            </p>
+        
+          <div className="m-4 flex justify-center align-middle flex-col">
+            <h1 className="p-1 text-[30px] mb-5 text-center">Samuel</h1>
+          <p className="p-1 font-thin italic text-slate-900 text-xs">
+          "Committed to staying at the forefront of emerging web technologies"
+              </p>
+            <p className="text-justify p-1">
+            Hi, My name is Samuel. I am a web developer. 
+            This is my Gig market place. 
+            I am selling some products while driving Uber and DIDI to test the feasibilities of this concept. 
+            Furthermore to put my project in an enterprise level prespective. 
+              </p>
+              <p className="text-justify p-1">
+            I have some New and used products at the store, please feel free to ask me any questions. 
+              </p>
+              <p className="text-justify p-1">
+                Thank you for checking out my store. 
+              </p>
           </div>
       </div>  
     </div>
@@ -56,34 +58,3 @@ const page = async () => {
 }
 
 export default page
-
-
-
-
-// <div className="flex flex-col lg:flex-row lg:w-full justify-center align-middle items-center">
-// <div className="">
-// <Carousel className="w-auto">
-//   <CarouselContent>
-//     <CarouselItem>
-//       <Image src="/sam.png" height={500} width={500} alt="image" className=" border rounded-md"/>
-//     </CarouselItem>
-//     <CarouselItem className=" items-center flex justify-center align-middle">
-//     <Image src="/frame.png" height={300} width={300} alt="image" />
-//     </CarouselItem>
-//   </CarouselContent>
-//   <CarouselPrevious />
-//   <CarouselNext />
-// </Carousel>
-// </div>
-// <div className="mb-4 mt-0 text-base font-light leading-relaxed p-11 w-auto">
-//   <p>Committed to staying at the forefront of emerging web technologies, I actively engage in self-learning. 
-//     Additionally, I have hands-on experience in web hosting on platforms, deploying projects, and managing GitHub repositories, further enhancing my proficiency in web development.
-//     I've volunteered in an agile environment at Treiner, showcasing adaptability and teamwork. 
-//     Currently, I'm conducting my professional year, further refining my skills and staying current with industry trends.
-//     If you're seeking a results-driven marketer with a unique blend of skills and a passion for continuous learning "Kaizen".
-//     Feel free to message me with any inquiries or opportunities for collaboration. Let's explore how we can achieve success together!
-//   </p>
-
-
-// </div>
-// </div>
