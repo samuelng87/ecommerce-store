@@ -52,10 +52,8 @@ const page = async () => {
               Committed to staying at the forefront of emerging web technologies
             </p>
             <p className="text-justify p-1">
-              Hi, My name is Samuel. I am a web developer. This is my Gig market
-              place. I am selling some products while driving Uber and DIDI to
-              test the feasibilities of this concept. Furthermore to put my
-              project in an enterprise level prespective.
+              Hi, My name is Samuel. I am a web developer.                               This is my Gig marketplace. I am selling some products while working on Uber and DIDI to test the feasibility of this concept. Additionally, I aim to present my project from an enterprise-level perspective and showcase it to my fellow gig workers.                            
+              This is my Gig marketplace. I am selling some products while working on Uber and DIDI to test the feasibility of this concept. Additionally, I aim to present my project from an enterprise-level perspective and showcase it to my fellow gig workers.                            
             </p>
             <p className="text-justify p-1">
               I have some New and used products at the store, please feel free
