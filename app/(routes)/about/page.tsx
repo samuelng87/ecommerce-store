@@ -33,9 +33,9 @@ const page = async () => {
 </div>
         
           <div className="m-4 flex justify-center align-middle flex-col">
-            <h1 className="p-1 text-[30px] mb-5 text-center">Samuel</h1>
+            <h1 className="p-1 text-[30px] mb-5 text">Samuel</h1>
           <p className="p-1 font-thin italic text-slate-900 text-xs">
-          "Committed to staying at the forefront of emerging web technologies"
+          Committed to staying at the forefront of emerging web technologies
               </p>
             <p className="text-justify p-1">
             Hi, My name is Samuel. I am a web developer. 
