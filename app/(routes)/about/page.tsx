@@ -25,7 +25,7 @@ const page = async () => {
               <CarouselContent>
                 <CarouselItem>
                   <Image
-                    src="/sam.png"
+                    src="/samuel.png"
                     height={1500}
                     width={1000}
                     alt="image"
