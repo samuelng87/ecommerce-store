@@ -31,8 +31,8 @@ const Navbar = async () => {
           >
             <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
               <Image src="/favicon.ico" height={100} width={100} alt="icon" className="sm:w-7 w-6"/>
-              <p className="font-bold hidden text sm:text-xl sm:block">
-                QR-STORE</p>
+              <p className="font-bold text sm:text-xl">
+              STORE</p>
             </Link>
             <Link href="/about" className="flex lg:ml-0 gap-x-2 space-x-4 lg:space-x-6 mx-0 sm:mx-6
 ">
