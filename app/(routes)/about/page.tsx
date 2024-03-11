@@ -104,7 +104,7 @@ const page = async () => {
               In contrast, gig marketplace are a little bit the vice versa of facebook marketplace. So, how does it works?
             </p>
             <p className="text-justify p-1">
-              If you found something you like in my store, <span className=" font-bold italic text-zinc-900"> you can just buy it in my car and i will pass it to you</span> easy!
+              If you found something you like in my store, <span className=" font-bold italic text-zinc-900"> you can just buy it in my car and I will pass it to you</span>, easy!
             </p>
           </div>
         </div>
@@ -150,7 +150,7 @@ const page = async () => {
             <p className="text-justify p-1">
               If you ever dine in the restuarant using apple pay to order your meal. 
             </p>
-            This is almost identical, once you have paid i will hand over the product for you.
+            This is almost identical, once you have paid, I will handover the product to you.
             <p className="text-justify p-1">
               
             </p>
